@@ -50,6 +50,7 @@
 		1361F7B8284FC16700C5CD33 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
 		1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodAPIEntity.swift; sourceTree = "<group>"; };
 		1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSource.swift; sourceTree = "<group>"; };
+		1361F7C6284FCB9400C5CD33 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 				1361F78B284FB5FA00C5CD33 /* ContentView.swift */,
 				1361F78D284FB5FB00C5CD33 /* Assets.xcassets */,
 				1361F78F284FB5FB00C5CD33 /* Preview Content */,
+				1361F7C6284FCB9400C5CD33 /* Config.xcconfig */,
 			);
 			path = GetSwifty;
 			sourceTree = "<group>";
