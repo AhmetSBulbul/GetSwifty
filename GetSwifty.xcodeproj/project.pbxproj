@@ -17,7 +17,6 @@
 		1361F7B9284FC16700C5CD33 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7B8284FC16700C5CD33 /* Apod.swift */; };
 		1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */; };
 		1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */; };
-		1361F7C4284FC62C00C5CD33 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7C3284FC62C00C5CD33 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +50,6 @@
 		1361F7B8284FC16700C5CD33 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
 		1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodAPIEntity.swift; sourceTree = "<group>"; };
 		1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSource.swift; sourceTree = "<group>"; };
-		1361F7C3284FC62C00C5CD33 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 				1361F78B284FB5FA00C5CD33 /* ContentView.swift */,
 				1361F78D284FB5FB00C5CD33 /* Assets.xcassets */,
 				1361F78F284FB5FB00C5CD33 /* Preview Content */,
-				1361F7C3284FC62C00C5CD33 /* Secret.swift */,
 			);
 			path = GetSwifty;
 			sourceTree = "<group>";
@@ -334,7 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1361F7B9284FC16700C5CD33 /* Apod.swift in Sources */,
-				1361F7C4284FC62C00C5CD33 /* Secret.swift in Sources */,
 				1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */,
 				1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */,
 				1361F78C284FB5FA00C5CD33 /* ContentView.swift in Sources */,
