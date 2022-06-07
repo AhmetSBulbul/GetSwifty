@@ -90,4 +90,4 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Project Spesific
-./GetSwifty/Secret.swift
+**/Secret.swift
