@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol NasaDataSource{
+    func getApod() async throws -> [Apod]
+}

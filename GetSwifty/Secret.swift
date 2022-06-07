@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+enum Secrets{
+    static let nasaApiKey = "ycjkRXEfEv673IqYc6dCWVijFViMqk10FQcP3S1d"
+}
