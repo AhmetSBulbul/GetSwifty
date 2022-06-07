@@ -10,9 +10,9 @@ import Foundation
 struct Apod: Identifiable{
     let id: String // It must be UUID as string
     let copyright: String
-    let date: Date
+    let date: String
     let explanation: String
-    let hdUrl: URL
+    let hdUrl: String
     let title: String
-    let url: URL
+    let url: String
 }

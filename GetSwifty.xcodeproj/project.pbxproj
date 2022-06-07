@@ -18,6 +18,11 @@
 		1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */; };
 		1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */; };
 		1361F7CA284FCCCD00C5CD33 /* NasaAPIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7C9284FCCCD00C5CD33 /* NasaAPIImpl.swift */; };
+		1361F7D8284FDC8300C5CD33 /* NasaRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7D7284FDC8300C5CD33 /* NasaRepositoryImpl.swift */; };
+		1361F7DA284FDC9A00C5CD33 /* NasaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7D9284FDC9A00C5CD33 /* NasaRepository.swift */; };
+		1361F7E0284FE4E000C5CD33 /* ApodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7DF284FE4E000C5CD33 /* ApodViewModel.swift */; };
+		1361F7E5284FEC5C00C5CD33 /* GetApod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7E4284FEC5C00C5CD33 /* GetApod.swift */; };
+		1361F7E7284FEF7400C5CD33 /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7E6284FEF7400C5CD33 /* ApodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSource.swift; sourceTree = "<group>"; };
 		1361F7C6284FCB9400C5CD33 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		1361F7C9284FCCCD00C5CD33 /* NasaAPIImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPIImpl.swift; sourceTree = "<group>"; };
+		1361F7D7284FDC8300C5CD33 /* NasaRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaRepositoryImpl.swift; sourceTree = "<group>"; };
+		1361F7D9284FDC9A00C5CD33 /* NasaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaRepository.swift; sourceTree = "<group>"; };
+		1361F7DF284FE4E000C5CD33 /* ApodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewModel.swift; sourceTree = "<group>"; };
+		1361F7E4284FEC5C00C5CD33 /* GetApod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApod.swift; sourceTree = "<group>"; };
+		1361F7E6284FEF7400C5CD33 /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 		1361F788284FB5FA00C5CD33 /* GetSwifty */ = {
 			isa = PBXGroup;
 			children = (
+				1361F7DB284FE49200C5CD33 /* Presentation */,
 				1361F7C0284FC57600C5CD33 /* Core */,
 				1361F7B6284FC11E00C5CD33 /* Domain */,
 				1361F7B3284FBD3B00C5CD33 /* Data */,
@@ -151,6 +162,7 @@
 		1361F7B4284FC0AD00C5CD33 /* Nasa */ = {
 			isa = PBXGroup;
 			children = (
+				1361F7D6284FDC7500C5CD33 /* Repository */,
 				1361F7B5284FC0BC00C5CD33 /* DataSource */,
 			);
 			path = Nasa;
@@ -168,6 +180,8 @@
 		1361F7B6284FC11E00C5CD33 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				1361F7E2284FEC3600C5CD33 /* UseCase */,
+				1361F7E1284FE84B00C5CD33 /* Repository */,
 				1361F7B7284FC12900C5CD33 /* Model */,
 			);
 			path = Domain;
@@ -203,6 +217,63 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		1361F7D6284FDC7500C5CD33 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7D7284FDC8300C5CD33 /* NasaRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1361F7DB284FE49200C5CD33 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7DC284FE49F00C5CD33 /* Nasa */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1361F7DC284FE49F00C5CD33 /* Nasa */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7DE284FE4CA00C5CD33 /* Apod */,
+			);
+			path = Nasa;
+			sourceTree = "<group>";
+		};
+		1361F7DE284FE4CA00C5CD33 /* Apod */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7DF284FE4E000C5CD33 /* ApodViewModel.swift */,
+				1361F7E6284FEF7400C5CD33 /* ApodView.swift */,
+			);
+			path = Apod;
+			sourceTree = "<group>";
+		};
+		1361F7E1284FE84B00C5CD33 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7D9284FDC9A00C5CD33 /* NasaRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1361F7E2284FEC3600C5CD33 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7E3284FEC4E00C5CD33 /* Nasa */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		1361F7E3284FEC4E00C5CD33 /* Nasa */ = {
+			isa = PBXGroup;
+			children = (
+				1361F7E4284FEC5C00C5CD33 /* GetApod.swift */,
+			);
+			path = Nasa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,11 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1361F7D8284FDC8300C5CD33 /* NasaRepositoryImpl.swift in Sources */,
+				1361F7E0284FE4E000C5CD33 /* ApodViewModel.swift in Sources */,
+				1361F7E7284FEF7400C5CD33 /* ApodView.swift in Sources */,
 				1361F7B9284FC16700C5CD33 /* Apod.swift in Sources */,
+				1361F7DA284FDC9A00C5CD33 /* NasaRepository.swift in Sources */,
 				1361F7CA284FCCCD00C5CD33 /* NasaAPIImpl.swift in Sources */,
 				1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */,
 				1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */,
 				1361F78C284FB5FA00C5CD33 /* ContentView.swift in Sources */,
+				1361F7E5284FEC5C00C5CD33 /* GetApod.swift in Sources */,
 				1361F78A284FB5FA00C5CD33 /* GetSwiftyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

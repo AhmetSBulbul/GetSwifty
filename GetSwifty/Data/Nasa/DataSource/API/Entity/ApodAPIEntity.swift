@@ -8,12 +8,11 @@
 import Foundation
 
 struct ApodAPIEntity: Codable{
-    let id: String // Must be uuid String
     let copyright: String
-    let date: Date
+    let date: String
     let explanation: String
-    let hdUrl: URL
+    let hdurl: String
     let title: String
-    let url: URL
+    let url: String
     
 }

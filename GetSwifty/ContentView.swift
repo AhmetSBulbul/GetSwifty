@@ -11,8 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text(Bundle.main.infoDictionary?["NASA_API_KEY"] as? String ?? "What")
-            }
+                ApodView()           }
             .navigationTitle("Get Swifty!")
             .navigationBarTitleDisplayMode(.large)
         }
