@@ -17,6 +17,7 @@
 		1361F7B9284FC16700C5CD33 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7B8284FC16700C5CD33 /* Apod.swift */; };
 		1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */; };
 		1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */; };
+		1361F7CA284FCCCD00C5CD33 /* NasaAPIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361F7C9284FCCCD00C5CD33 /* NasaAPIImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1361F7BC284FC2B400C5CD33 /* ApodAPIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodAPIEntity.swift; sourceTree = "<group>"; };
 		1361F7BE284FC3FD00C5CD33 /* NasaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDataSource.swift; sourceTree = "<group>"; };
 		1361F7C6284FCB9400C5CD33 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		1361F7C9284FCCCD00C5CD33 /* NasaAPIImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPIImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				1361F7BB284FC29800C5CD33 /* Entity */,
+				1361F7C9284FCCCD00C5CD33 /* NasaAPIImpl.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1361F7B9284FC16700C5CD33 /* Apod.swift in Sources */,
+				1361F7CA284FCCCD00C5CD33 /* NasaAPIImpl.swift in Sources */,
 				1361F7BF284FC3FD00C5CD33 /* NasaDataSource.swift in Sources */,
 				1361F7BD284FC2B400C5CD33 /* ApodAPIEntity.swift in Sources */,
 				1361F78C284FB5FA00C5CD33 /* ContentView.swift in Sources */,
@@ -375,6 +379,7 @@
 /* Begin XCBuildConfiguration section */
 		1361F7A8284FB5FB00C5CD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361F7C6284FCB9400C5CD33 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -435,6 +440,7 @@
 		};
 		1361F7A9284FB5FB00C5CD33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361F7C6284FCB9400C5CD33 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -489,6 +495,7 @@
 		};
 		1361F7AB284FB5FB00C5CD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361F7C6284FCB9400C5CD33 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +505,7 @@
 				DEVELOPMENT_TEAM = WZKNYWJ5R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetSwifty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -518,6 +526,7 @@
 		};
 		1361F7AC284FB5FB00C5CD33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361F7C6284FCB9400C5CD33 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -527,6 +536,7 @@
 				DEVELOPMENT_TEAM = WZKNYWJ5R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetSwifty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
